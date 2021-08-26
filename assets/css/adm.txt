@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #b8daff;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #9fcdff;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: #9fcdff;
+}
+
+.table-secondary,
+.table-secondary > th,
+.table-secondary > td {
+  background-color: #d6d8db;
+}
+
+.table-hover .table-secondary:hover {
+  background-color: #c8cbcf;
+}
+
+.table-hover .table-secondary:hover > td,
+.table-hover .table-secondary:hover > th {
+  background-color: #c8cbcf;
+}
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #c3e6cb;
+}
+
+.table-hover .table-success:hover {
+  background-color: #b1dfbb;
+}
+
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: #b1dfbb;
+}
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #bee5eb;
+}
+
+.table-hover .table-info:hover {
+  background-color: #abdde5;
+}
+
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+  background-color: #abdde5;
+}
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #ffeeba;
+}
+
+.table-hover .table-warning:hover {
+  background-color: #ffe8a1;
+}
+
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: #ffe8a1;
+}
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #f5c6cb;
+}
+
+.table-hover .table-danger:hover {
+  background-color: #f1b0b7;
+}
+
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+  background-color: #f1b0b7;
+}
+
+.table-light,
+.table-light > th,
+.table-light > td {
+  background-color: #fdfdfe;
+}
+
+.table-hover .table-light:hover {
+  background-color: #ececf6;
+}
+
+.table-hover .table-light:hover > td,
+.table-hover .table-light:hover > th {
+  background-color: #ececf6;
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #c6c8ca;
+}
+
+.table-hover .table-dark:hover {
+  background-color: #b9bbbe;
+}
+
+.table-hover .table-dark:hover > td,
+.table-hover .table-dark:hover > th {
+  background-color: #b9bbbe;
+}
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.table .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #212529;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  border-color: #32383e;
+}
+
+.table-dark.table-bordered {
+  border: 0;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-dark.table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+  .table-responsive-sm > .table-bordered {
+    border: 0;
+  }
+}
+</style>
+
+
+    
+</head>
+
+<body>
+<table class="table table-bordered" border="0" width="100%" style="margin-top: -30px;margin-left: -35px;">
+    <tr class="" >
+            <td style="width: 20%;"><img src="<?= base_url('img');?>/PJB_LOGO.jpg" width="80px" style="text-align: center;margin-left: 35px;margin-top: 10px;"></td>
+            <td rowspan="4" style="text-align: center;font-weight: bolder;font-family: ARIAL;font-size: 22px;">PT PEMBANGKITAN JAWA BALI<br>UNIT KERJA PT PJB UBJOM PAITON</td>
+            <td style="width: 20%;font-size: 12px;height: 30px;">No. Dok : IKKP-12.6.4.4.4.19</td>
+    </tr>
+    <tr class="">
+            <td style="width: 20%;text-align: center;font-size: 10px;">UNIT KERJA</td>
+            <td style="width: 20%;font-size: 12px;">Revisi : 01</td>
+    </tr>
+    <tr class="">
+            <td style="width: 20%;text-align: center;font-size: 10px;padding-top:-10px; " rowspan="2">PT PJB UBJOM PAITON</td>
+            <td style="width: 20%;font-size: 12px;">Tanggal Terbit : 15-9-2017</td>
+    </tr>
+    <tr class="">
+             <td style="width: 20%;font-size: 12px;">Halaman : 1 Dari 1</td>
+    </tr>
+    <tr class="">
+            <td style="font-size: 16px;text-align: center;font-weight: bolder;" colspan="3">CHECK LIST PENILAIAN AUDIT 5S</td>
+    </tr>
+</table>
+<div style="width: 775px;margin-left: -35px; background-color: ;">
+<table class="" height="" width="100%" border="" style="border: 1px solid #000;margin-top: 10px;">
+    
+    <?php
+    foreach ($join_4 as $val) {
+        $a=$val->nama_kategori;
+        $b=$val->nama_area;
+        $c=$val->auditee;
+
+    }
+    ?>
+
+    <tr style="border: 1px solid #000;">
+            <td colspan="3" style="border: 1px solid #000;font-size: 13px;width: 120px;">
+                KATEGORI AREA : <br><strong><?= $a; ?></strong><br> &nbsp;
+            </td>
+            <td width="" style="border: 1px solid #000;font-size: 13px;width: 220px;text-align: center;">
+                AREA : <br><strong><?= $b; ?></strong> &nbsp;
+            </td>
+            <td colspan="5" style="border: 1px solid #000;font-size: 13px;width: 50px;text-align: center;">
+                TANGGAL : <br><strong><?= date('Y-m-d') ?></strong> &nbsp;
+            </td>
+            <td style="border: 1px solid #000;font-size: 13px;width: 120px;text-align: center;">
+                AUDITEE : <br><strong><?= $c; ?></strong> &nbsp;
+            </td>
+            <td colspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 100px;">
+                AUDITOR : <br><strong><?= "BU MAYA"; ?></strong> &nbsp;
+            </td>
+    </tr>
+    <tr  style="border: 1px solid #000;">
+            <td colspan="12" style="border: 1px solid #000;">&nbsp;</td>
+            
+    </tr>
+</table>
+<table width="100%"  style="border: 1px solid #000;">
+    <tr style="border: 1px solid #000;">
+            <td rowspan="2" colspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 50px;">POIN<br>AUDIT</td>
+            <td rowspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 90px;">DAFTAR<br>PERIKSA</td>
+            <td rowspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 250px;">EVALUASI</td>
+            <td colspan="5" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 100px;">NILAI</td>
+            <td rowspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 80px;">JUMLAH <br>NILAI</td>
+            <td rowspan="2" style="border: 1px solid #000;font-size: 13px;text-align: center;width: 80px;">RATA-RATA</td>
+    </tr>
+    <tr style="text-align: center;">
+            <td style="border: 1px solid #000;width: 30px;">1</td>
+            <td style="border: 1px solid #000;width: 30px;">2</td>
+            <td style="border: 1px solid #000;width: 30px;">3</td>
+            <td style="border: 1px solid #000;width: 30px;">4</td>
+            <td style="border: 1px solid #000;width: 30px;">5</td>
+    </tr>
+    <?php
+    //$z="5"; for($o=1;$o <= 5;$o++){
+    ?>
+    <tr style="">
+            <td rowspan="5" style="border: 1px solid #000;height: 100px;text-align: center;">TESTER</td>
+           <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            
+    </tr>
+ 
+<?php // } ?>
+    
+
+   <!-- <tr style="">
+            <td rowspan="" style="border: 1px solid #000;height: 100px;text-align: center;">a</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            
+    </tr>
+    <tr style="">
+            <td rowspan="" style="border: 1px solid #000;height: 100px;text-align: center;">a</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            
+    </tr>
+    <tr style="">
+            <td rowspan="" style="border: 1px solid #000;height: 100px;text-align: center;">a</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            
+    </tr>
+    <tr style="">
+            <td rowspan="" style="border: 1px solid #000;height: 100px;text-align: center;">a</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            
+    </tr> --><?php //} ?>
+    
+</table>
+</div>
+ <script src="<?= base_url('assets/template/back/assets')?>/vendors/js/vendor.bundle.base.js"></script>
+    <script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>
+
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="<?= base_url('assets/template/back/assets')?>/vendors/chart.js/Chart.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="<?= base_url('assets/template/back/assets')?>/js/off-canvas.js"></script>
+    <script src="<?= base_url('assets/template/back/assets')?>/js/hoverable-collapse.js"></script>
+    <script src="<?= base_url('assets/template/back/assets')?>/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="<?= base_url('assets/template/back/assets')?>/js/dashboard.js"></script>
+    <script src="<?= base_url('assets/template/back/assets')?>/js/todolist.js"></script>
+    <script src="<?= base_url('assets/js')?>/bootstrap.js"></script>
+    <script src="<?= base_url('assets/js')?>//bootstrap.min.js"></script>
+    </body>
+</html>
